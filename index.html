@@ -25,6 +25,7 @@
         </nav>
         <div id="contents">
             <section>
+                <p id="choice">ここに表示します</p>
                 <h2>About</h2>
                 <p>Mahiroの自己紹介ページです。</p>
                 <h2>内容</h2>
@@ -57,5 +58,9 @@
     <footer>
         <p>※住所特定やHP制作者の詮索はしないでください。</p>
     </footer>
+    <script>
+        'use script';
+        document.getElementById('choice').textContent=new Date();
+    </script>
     </div>
 </html>
